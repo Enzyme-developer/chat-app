@@ -1,0 +1,85 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .join__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .join__container__inner {
+    width: 50%;
+  }
+  
+  .joinInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+    border: none;
+  }
+  
+  .join__container-heading {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #19f024;
+      cursor: pointer;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 760px) {
+    .join__container {
+      height: 100%;
+    }
+  
+    .join__container__inner {
+      width: 90%;
+    }
+
+  }
+  
+
+  .joinInput:focus {
+    outline: none;
+  }
+
+  button:hover{
+      background-color: #04830b;
+  }
+
+  button:focus {
+    outline: none;
+  }
